@@ -23,7 +23,7 @@ SET default_with_oids = false;
 
 --
 -- TOC entry 222 (class 1259 OID 27648)
--- Name: uto_imports; Type: TABLE; Schema: public; Owner: joe
+-- Name: uto_imports; Type: TABLE; Schema: public; Owner: alex
 --
 
 CREATE TABLE uto_imports (
@@ -34,12 +34,12 @@ CREATE TABLE uto_imports (
 );
 
 
-ALTER TABLE uto_imports OWNER TO joe;
+ALTER TABLE uto_imports OWNER TO alex;
 
 --
 -- TOC entry 3579 (class 0 OID 27648)
 -- Dependencies: 222
--- Data for Name: uto_imports; Type: TABLE DATA; Schema: public; Owner: joe
+-- Data for Name: uto_imports; Type: TABLE DATA; Schema: public; Owner: alex
 --
 
 COPY uto_imports (commodity, country, year, dollars) FROM stdin;
